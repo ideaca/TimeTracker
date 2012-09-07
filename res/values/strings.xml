@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Open calendar</string>
+    <color name="text_color">#31D1F1</color>
+    <color name="white">#ffffff</color>
+    <string name="open">Open</string>
+    <string name="labelChooseDate">Select the date</string>
+    <string name="app_name">Articulus Time Entry</string>
+    <string name="labelChooseProj">Select the project</string>
+    <string name="internalProjRadio">Internal Projects</string>
+    <string name="myProjRadio">My Projects</string>
+    <string-array name="projSpinnerInternal">
+        <item>internalProj1</item>
+        <item>internalProj2</item>
+    </string-array>
+    <string-array name="projSpinnerMyProj">
+        <item>myProj1</item>
+        <item>myProj2</item>
+    </string-array>
+    <string name="labelChooseActivity">Choose the Activity</string>
+    <string name="eligibleRadio">Eligible</string>
+    <string name="nonbillableRadio">Non-Billable</string>
+    <string name="billableRadio">Billable</string>
+    <string name="labelDescription">Enter a description below</string>
+    <string name="submitTimeButton">Submit Time Entry</string>
+    <string name="submitCopyTimeButton">Submit and Copy Time Entry</string>
+    <string name="submitAddTimeButton">Submit and Add Time Entry	</string>
+    <string name="cancelTimeButton">Cancel Time Entry</string>
+    <string name="travelCheckBox">Travel</string>
+    <string name="overnightCheckBox">Overnight</string>
+    <string name="PWord">Password</string>
+    <string name="UName">Username</string>
+    <string name="Login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="myTime">My Time</string>
+    <string name="myReports">My Reports</string>
+    <string name="myCalendar">My Calendar</string>
+    <string name="addTime">Add Time Entry</string>
+    <string name="addOnCall">Add On Call Time</string>
+</resources>

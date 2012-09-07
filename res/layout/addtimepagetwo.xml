@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+        
+
+        <TextView
+	        android:id="@+id/labelChooseActivity"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:hint="@string/labelChooseActivity"
+	        android:padding="10dp"
+	        android:textSize="20dp" 
+	    />
+        
+
+        
+        <Spinner 
+        	android:id="@+id/activitySpinner"
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/labelChooseActivity"
+        />
+        
+
+        <EditText
+            android:id="@+id/addHoursEditText"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:inputType="numberDecimal" />
+
+        <RadioGroup
+            android:id="@+id/hoursRadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/addHoursEditText"
+            android:layout_below="@id/activitySpinner"
+            android:orientation="vertical"
+            android:padding="20dp" >
+          	
+            <RadioButton
+                android:id="@+id/billableRadio"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content" 
+            	android:hint="@string/billableRadio"
+            	android:layout_weight="1"
+            	/>
+            
+            <RadioButton
+                android:id="@+id/nonbillableRadio"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content" 
+            	android:hint="@string/nonbillableRadio"
+            	android:layout_weight="1"
+            	/>
+            
+            <RadioButton
+            	android:id="@+id/eligibleRadio" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:hint="@string/eligibleRadio"
+            	/>
+        </RadioGroup>
+	      
+
+	<CheckBox
+        android:id="@+id/travelCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/travelCheckBox"
+        android:layout_below="@id/hoursRadioGroup"
+        />
+
+	<CheckBox
+        android:id="@+id/overnightCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/overnightCheckBox"
+        android:layout_below="@id/travelCheckBox"
+        />	
+        
+    </RelativeLayout>
+</ScrollView>
